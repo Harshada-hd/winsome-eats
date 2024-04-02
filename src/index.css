@@ -1,3 +1,8 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 .header{
   display: flex;
   justify-content: space-between;
@@ -5,7 +10,7 @@
 }
 
 .logo{
-  width: 400px;
+  width: 255px;
 }
 
 .nav-items{
@@ -15,11 +20,44 @@
 .nav-items > ul {
   display: flex;
   list-style-type: none;
-  font-size: 59px;
+  font-size: 100px;
 }
 
 .nav-items > ul > li{
   padding: 10px;
   margin: 10px;
   /* font-size: 59px; */
+}
+.res-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 23px;
+  padding: 36px;
+}
+
+/* .res-card{
+  padding: 5px;
+   width: 200px;
+   height: 300px;
+   /* font-size: 30px; */
+
+/* } */ 
+.res-card {
+  padding: 29px;
+  width: 599px;
+  
+  font-size: 30px;
+  
+}
+
+.res-card:hover{
+  border: 2px solid rgb(64, 197, 23);
+  cursor: pointer;
+}
+.search{
+  padding: 10px;
+}
+.rest-logo{
+  
+  width: 100%;
 }
